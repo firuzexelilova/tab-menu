@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    background-color: darkblue !important;
+}
+
+
+.container{
+    width: 100%;
+    padding: 0 6rem;
+
+}
+.tab_navbar{
+    list-style: none;
+}
+.tab_navbar li{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: brown;
+    color: #fff;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 30px;
+
+}
+.tab_area{
+   
+    border: 2px dashed brown;
+    padding: 15px;
+}
